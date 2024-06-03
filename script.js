@@ -1,7 +1,9 @@
 // console.log("Hello world")
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice() {
-    let randomNum = Math.random()
+    let randomNum = Math.random();
 
     if (randomNum < 1 / 3) {
         return "Computer Choice:Rock";
