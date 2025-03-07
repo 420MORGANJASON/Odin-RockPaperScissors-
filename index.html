@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Rock Paper Scissors</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="choice-btn">
+      <h1>ROCK PAPER SCISSORS</h1>
+      <div class="rps-container">
+      <div class="rock-container">
+        <button type="submit" id="btn1">
+          <img class="btn-images" src="./Images/Rock.jpeg" alt="Rock-Image" /> Rock
+        </button>
+      </div>
+      
+      <div class="paper-container">
+        <button type="submit" id="btn2">
+          <img class="btn-images" src="./Images/paper.jpeg" alt="Paper-Image" /> Paper
+        </button>
+      </div>
+      <div class="scissors-container">
+        <button type="submit" id="btn3">
+          <img class="btn-images" src="./Images/Scissors.jpeg" alt="Scissors-Image" /> Scissors
+        </button>
+      </div>
+    </div>
+      <div class="choiceResult">
+        <p class="p-text"></p>
+      </div>
+      <div class="score">
+        <p class="p-text"></p>
+      </div>
+      <button id="restartBtn">Restart</button>
+      <div class="final">
+        <p class="p-text"></p>
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
